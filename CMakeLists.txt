@@ -19,6 +19,8 @@ include_directories(${PROJECT_SOURCE_DIR}/src/forest)
 # Source files
 set(SOURCES
     src/forest/Node.h
+    src/forest/BinaryTree.h
+    src/forest/preorder.cpp
 )
 
 # Add executable
