@@ -20,6 +20,7 @@ void BinaryTree::popSubTree(uNode rootSubTree){
         popSubTree(rootSubTree -> getRight());
         popSubTree(rootSubTree -> getLeft());
         delete rootSubTree;
+    }
 }
 
 
