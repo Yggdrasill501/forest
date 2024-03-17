@@ -11,10 +11,10 @@ private:
     Node *next[];
 
 public:
-    Node(Data  co, Node *left, Node *right);
-    Node(Data co);
-    void set(Data co, Node *left, Node *right);
-    void setData(Data co);
+    Node(Data  key, Node *left, Node *right);
+    Node(Data key);
+    void set(Data key, Node *left, Node *right);
+    void setData(Data key);
     void setLeft(Node *left);
     void setRight(Node *right);
     Data getData();

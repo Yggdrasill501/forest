@@ -4,9 +4,11 @@
 #ifndef BINARYTREE_H
 #define BINARYTREE_H
 #include <iostream>
+#include "Node.h"
 
-clas BinaryTree{
+class BinaryTree{
 private:
+    Node uNode;
     uNode root;
     void appendSubTree(Data key, uNode rootSubTree);
     uNode search(Data key, uNode &ancesstor, uNode rootSubTree);
