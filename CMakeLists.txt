@@ -24,6 +24,6 @@ set(SOURCES
 )
 
 # Add executable
-add_executable(CimiWeb ${SOURCES}
+add_executable(Forest ${SOURCES}
         src/main.cpp
 )
